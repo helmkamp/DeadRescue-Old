@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="hyptosis_til-art-batch-2" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/hyptosis_til-art-batch-2.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="901" name="hyptosis_tile-art-batch-1" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/hyptosis_tile-art-batch-1.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="1801" name="Tilesheet-water" tilewidth="32" tileheight="32">
+  <image source="../Tile Sets/Tilesheet-water.png" width="256" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="Collision" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="1865" name="hyptosis_tile-art-batch-3" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/hyptosis_tile-art-batch-3.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="2765" name="grass-vegi" tilewidth="32" tileheight="32">
+  <image source="../Tile Sets/grass-vegi.png" width="640" height="384"/>
+ </tileset>
+ <tileset firstgid="3005" name="tree" tilewidth="32" tileheight="32">
+  <image source="../Tile Sets/tree.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="3069" name="dark_forest" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/dark_forest.png" width="256" height="608"/>
+ </tileset>
+ <tileset firstgid="3221" name="grassland" tilewidth="32" tileheight="32">
+  <image source="../Tile Sets/grassland.png" width="1024" height="1344"/>
+ </tileset>
+ <tileset firstgid="4565" name="zombie_0 (1)" tilewidth="32" tileheight="32">
+  <image source="../zombie_0 (1).png" width="4608" height="1024"/>
+ </tileset>
+ <tileset firstgid="9173" name="zombie_0" tilewidth="32" tileheight="32">
+  <image source="../zombie_0.png" width="2425" height="539"/>
+ </tileset>
+ <tileset firstgid="10373" name="wyvern_composite" tilewidth="32" tileheight="32">
+  <image source="../wyvern_composite.png" width="14336" height="2048"/>
+ </tileset>
+ <tileset firstgid="39045" name="units_0" tilewidth="32" tileheight="32">
+  <image source="../units_0.png" width="1033" height="5045"/>
+ </tileset>
+ <layer name="Grass, Dirt (not path), water, bridge (no rail)" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJzt0L0NwjAQhuGLKA4qoAaUAgIFdIEOFmCKrGAYJBkhKwIL8J3sQ5ahwMEFRYpHcRTn9Y/JiAzUGbV4tg3GjXtX5wHRt4zrXeDqdYwT09JeHewptuHreq5e7x/NOX1vkbC5QquAdaLmY0iVmI6o+qWzYWrFHS0x6djTzozt3d3QEuOInjZUDku2d7eHA9s5uePPC//99E3GWzR2cIQTv6+pSjtX1pczvdYMlW5vT/kdn4c=
+  </data>
+ </layer>
+ <layer name="Path" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFpIBvzKiYWuYQax4ufUPNPGIBNc0ixjxSwXAwbx8LA8N+ID7AQplZIHwbaMYdIL5Lplno4CfQnF9A/BuLedQKI3qZNxwBAFiLeLg=
+  </data>
+ </layer>
+ <layer name="Tree Rim" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2Dwg1xmhoTPTAwLQBjIphgAzUFmHxhs5gH9eABoDsjPCUD2AkrNGwWjgBYAACwXDqk=
+  </data>
+ </layer>
+ <layer name="Objects." width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAO3jLjkCAC1LMxMDQAcSMb+WaQA85hcfNjdgaGJ+wIPicLAwMXC/l2MHIwMDBxEK9+BTthNaSAY1Q2DwZOAs09BcSngfgMFex4DjTjBRC/BOJXJJiHLQ5BgBUY5mxAzA7EHCSEPy6gDDRDBYhVgViNCuY5As1wAmJnIHbBYR4uvw0XUM440C6gPaBGHA6ndAAAzsATqQ==
+  </data>
+ </layer>
+ <objectgroup name="Object Layer 1" width="20" height="20">
+  <object x="357" y="301" width="55" height="41"/>
+  <object x="489" y="423" width="15" height="20"/>
+  <object x="259" y="170" width="27" height="17"/>
+  <object x="36" y="42" width="87" height="18"/>
+  <object x="512" y="103" width="63" height="20"/>
+  <object x="-4" y="477" width="98" height="7"/>
+  <object x="88" y="448" width="8" height="29"/>
+  <object x="67" y="440" width="25" height="8"/>
+  <object x="59" y="415" width="7" height="29"/>
+  <object x="29" y="413" width="31" height="4"/>
+  <object x="26" y="382" width="4" height="33"/>
+  <object x="0" y="381" width="25" height="3"/>
+  <object x="4" y="572" width="413" height="6"/>
+  <object x="-1" y="572" width="7" height="5"/>
+  <object x="413" y="542" width="5" height="29"/>
+  <object x="414" y="540" width="99" height="2"/>
+  <object x="511" y="513" width="2" height="26"/>
+  <object x="513" y="507" width="62" height="5"/>
+  <object x="576" y="477" width="1" height="33"/>
+  <object x="576" y="479" width="64"/>
+  <object x="567" y="391" width="39" height="41"/>
+  <object x="534" y="429" width="59" height="19"/>
+  <object x="534" y="449" width="58" height="28"/>
+  <object x="517" y="429" width="17" height="49"/>
+ </objectgroup>
+ <layer name="Trees, Front, Realistic Shrubbery" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYMAPpgoyMEwD4ulAPAOIQ4E4DIjDgThCEKKmFEiXAXG5IAHDgGArUM02IN4OxDsEUfVWCGLaSSpAdy+6naQCdPcOBLjLy8Bwj5d65v0FmvWPiuYNNjAaXqNgFNAHAAAR0hzo
+  </data>
+ </layer>
+ <layer name="Trees, Back" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAOlAoyMJQBcTkQVwhi8kkFU4F6pgHxdCCeIYjJJxVsBerZBsTbgXiHICZ/FIwCagAlKQYGZSnqmbcJaNZmKpo3CkYBPQEAKUkRxw==
+  </data>
+ </layer>
+ <layer name="Tile Layer 7" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+</map>

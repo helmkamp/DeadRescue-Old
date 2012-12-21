@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="50" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="hyptosis_til-art-batch-2" tilewidth="32" tileheight="32">
+  <image source="hyptosis_til-art-batch-2.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="901" name="Tilesheet-water" tilewidth="32" tileheight="32">
+  <image source="Tilesheet-water.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="965" name="meta_tiles" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="Collectable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QsQ2AMAxFQVC2yzZslTHpKUCRLNlYV1xr/ec5jmNuuM53O7cyden4asneFtWWvSOqJXsD0NcqsCGqo0OLjlrWiGvJ/IeOuh1PXTp2u/7SEdEKAAAAAADUdQPacjvSECcAAA==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="50" height="50">
+  <object name="SpawnPoint" x="454" y="548"/>
+ </objectgroup>
+ <layer name="Foreground" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAODfAC7KO00QJwAA
+  </data>
+ </layer>
+ <layer name="Meta" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3QQQrAIAwAQcH/P6v/Eg+FUoqgBKJlBnIN2ZQCAJzuqtkXxOgdf2jRsZe7I6Il8x86vndleXa8Z2VXllHHbNcpHRGtAAAAAADAvhqRfVsHECcAAA==
+  </data>
+ </layer>
+</map>

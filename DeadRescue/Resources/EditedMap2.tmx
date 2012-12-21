@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grassland" tilewidth="32" tileheight="32">
+  <image source="grassland.png" width="1024" height="1344"/>
+ </tileset>
+ <tileset firstgid="1345" name="hyptosis_tile-art-batch-1" tilewidth="32" tileheight="32">
+  <image source="hyptosis_tile-art-batch-1.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="2245" name="hyptosis_til-art-batch-2" tilewidth="32" tileheight="32">
+  <image source="hyptosis_til-art-batch-2.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="3145" name="hyptosis_tile-art-batch-3" tilewidth="32" tileheight="32">
+  <image source="hyptosis_tile-art-batch-3.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="4045" name="hyptosis_tile-art-batch-4" tilewidth="32" tileheight="32">
+  <image source="hyptosis_tile-art-batch-4.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="4945" name="Tilesheet-water" tilewidth="32" tileheight="32">
+  <image source="Tilesheet-water.png" width="256" height="256"/>
+ </tileset>
+ <layer name="grassDirt" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+PjYWDgw4LRAUzclIuBIYQLQoOwORCbIYlhMwufecFQvTAzQrlQxUg1D4RDuFBxMBImxzx0bIrkf2qYBwsHarmPGDzSzSPWXFxq8AFi3EEtN1LTPEJqSPUzqXaSAuhlHiVmEms+NeyltnnEAgBap1LRQAYAAA==
+  </data>
+ </layer>
+ <layer name="Shrubbery" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3MNxWAQBAA0a0ONQQfBB8EBUBPMAAIIBgAjCCIOQ23BQXz3rRf5Pv5nkjAIUeeuxdjJJxypuDlGAWXXCl4HUbPA48K3oqx8c6Hgve1aiPScGvcrQlj5kXBsp04F99Knu1RtP7+XHoBL3n2dkAGAAA=
+  </data>
+ </layer>
+ <layer name="Path" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA4msqJiSsGoeaPmDSbzKDUXl3m0MHOwm0crM8mxh9rmkWrmSAMAjtL8dEAGAAA=
+  </data>
+ </layer>
+ <layer name="Bushes" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGHzAnZGBwYOReualA83KoKJ5gwl4A/3lQ4bfAoF6grDoywaK5ZBhXiFQT9EwDeORCshNW7gAuWlrFAxeAACWK6SAQAYAAA==
+  </data>
+ </layer>
+ <layer name="Water" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2SOwrDMBBE9w66XdIsSud0cuf8wPm48SF0FB3FR8lbUKHGEMKWWhgEknia3ZFIr1699uoQ/HlHR2aEdXLizUHyAOvsxHvCS7BGP3/bBOviyEPm041HtkoeygyVvpV5Knz9l8d/0Vg5qa7W/xXd0B09fvRf52eZWM76CVLe6IXwWOqeLKi5l3k/4yO3Z8Za0Rc0N0YgQAYAAA==
+  </data>
+ </layer>
+ <layer name="Rocks" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoB74wUmePhEuKjqCTuA7mX4dBaNgFIyC4QIA9HlBEUAGAAA=
+  </data>
+ </layer>
+ <layer name="Tree" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3MxwmAQBQA0b+4DRgaMbShYGhDwdCIoVFDAc5F8OzuRdiBuT4Rl8v1pd0TOfjkyzP3fC0ScMiRNvdijIRTzix4JUbFNTcWvB5j4JEnC96MsfDK28vLlUihzP2nFquz6P25Gxi20apABgAA
+  </data>
+ </layer>
+ <layer name="Bridge" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMgsEN+PkYFnzkZVhALfMEgOZ9oqJ5gkDzPlPRvKECAOGfoA1ABgAA
+  </data>
+ </layer>
+ <layer name="bridgeRail" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMgsELmLgYFgy0G/CBJ5wMCQPthoECAATUGu1ABgAA
+  </data>
+ </layer>
+ <layer name="Boat" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMglEwGIEpEwODGRP1zAsFmhVGRfMAdXdRP0AGAAA=
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="20" height="20">
+  <object x="79" y="92" width="41" height="84"/>
+  <object x="575" y="282" width="18" height="21"/>
+  <object x="566" y="301" width="15" height="18"/>
+  <object x="552" y="311" width="15" height="20"/>
+  <object x="543" y="328" width="13" height="14"/>
+  <object x="424" y="38" width="19" height="21"/>
+  <object x="275" y="472" width="27" height="23"/>
+  <object x="1" y="316" width="30" height="3"/>
+  <object x="29" y="319" width="4" height="33"/>
+  <object x="32" y="350" width="30" height="2"/>
+  <object x="62" y="351" width="4" height="194"/>
+  <object x="66" y="542" width="126" height="3"/>
+  <object x="189" y="543" width="5" height="33"/>
+  <object x="194" y="576" width="123" height="3"/>
+  <object x="317" y="578" width="3" height="29"/>
+  <object x="320" y="607" width="288" height="1"/>
+  <object x="603" y="543" width="4" height="63"/>
+  <object x="543" y="513" width="32" height="7"/>
+  <object x="573" y="522" width="1" height="3"/>
+  <object x="572" y="525" width="4" height="17"/>
+  <object x="573" y="543" width="31" height="2"/>
+  <object x="544" y="474" width="32" height="5"/>
+  <object x="569" y="468" width="7" height="6"/>
+  <object x="575" y="449" width="2" height="20"/>
+  <object x="578" y="446" width="29" height="4"/>
+  <object x="604" y="381" width="4" height="63"/>
+  <object x="607" y="380" width="33" height="5"/>
+  <object name="SpawnPoint" x="342" y="179"/>
+ </objectgroup>
+</map>

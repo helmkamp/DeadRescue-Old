@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="hyptosis_tile-art-batch-1" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/hyptosis_tile-art-batch-1.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="901" name="hyptosis_til-art-batch-2" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/hyptosis_til-art-batch-2.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="1801" name="Tilesheet-water" tilewidth="32" tileheight="32">
+  <image source="../Tile Sets/Tilesheet-water.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="1865" name="grass-tiles-2-small" tilewidth="32" tileheight="32">
+  <image source="../Tile Sets/tileset/grass-tiles-2-small.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="1937" name="grassland" tilewidth="32" tileheight="32">
+  <image source="../Tile Sets/grassland.png" width="1024" height="1344"/>
+ </tileset>
+ <tileset firstgid="3281" name="town_tiles" tilewidth="32" tileheight="32">
+  <image source="../town_tiles.png" width="160" height="48"/>
+ </tileset>
+ <tileset firstgid="3286" name="jpisotbs" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/jpisotbs.png" width="300" height="200"/>
+ </tileset>
+ <tileset firstgid="3340" name="cave" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/cave.png" width="256" height="336"/>
+ </tileset>
+ <tileset firstgid="3420" name="hyptosis_tile-art-batch-5" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/hyptosis_tile-art-batch-5.png" width="636" height="1219"/>
+ </tileset>
+ <tileset firstgid="4142" name="hyptosis_tile-art-batch-4" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/hyptosis_tile-art-batch-4.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="5042" name="hyptosis_tile-art-batch-3" tilewidth="32" tileheight="32">
+  <image source="../Tiled Maps/hyptosis_tile-art-batch-3.png" width="960" height="960"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJw7x8bAcG4EYWMGBoYiKKa2ecZIeLCbh00MGy5CY2MznxRMqXlFSDQyJmTeLFEGhutAPEcUu3nI8sSYB1SbsBOiZwE285DliXRfAlDtgTk4zEOWJ8Y8QmGIC1Mav+h2UNs8GXYGBll26pUHKkCzVIFYjUpm6gDN0QViPSBWZ2dYoE6huSZA/aZQ9yGZCcdWUGwExFpATMg8G6AZtlBz9KFm6COZBaKtgdgYiLWBWBmIpaH+QFYD8xsA4Ar0IQ==
+  </data>
+ </layer>
+ <layer name="Trees, Front" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwr4mFgKAbiQCAOAuJgIC4E4iKoeAkWviEQGwGxMRCboMlPAuLJaGITkcSnYOEj2x2CJr8JiDejiW1EEt+ChY/uXmR5GEDXgw+gu5dSQIrdo2AUjIJRMFgBAAskKWw=
+  </data>
+ </layer>
+ <layer name="Trees, Back" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJwr5GFgKALiYiAuQWMXksgHgYlAehIQTwbiKWhsdDlCfBDYCKQ3AfFmIN6CxkaXI8QfBaNgFIyCUUA9AABArSNQ
+  </data>
+ </layer>
+ <layer name="Tree" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApIBwAGQAAB
+  </data>
+ </layer>
+ <layer name="Round Trees" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztjM0NgmAQBb8CaAoMP22IAWkDCEobQlDaQIJSlkMB7B5IPO0kc5qX59xxfM+5AE/e/iakRRhjIuw2zvQUL8Iuo+V4xUL5K+kV1sKuod3wjq3y96B32Au7gfbEF47K30R/4yzsFtoHv7gqf4ZhGP/gBzpvE8U=
+  </data>
+ </layer>
+ <layer name="Tile Layer 6" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwn4iDAw+IqQLocLZAHVZyPp2SSCW47e4JMwZfLoQICAXwjJowM9AuoJyY+CUTDUAQAQagcZ
+  </data>
+ </layer>
+</map>

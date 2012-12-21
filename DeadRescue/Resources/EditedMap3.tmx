@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="20" height="20" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="grassland" tilewidth="32" tileheight="32">
+  <image source="grassland.png" width="1024" height="1344"/>
+ </tileset>
+ <tileset firstgid="1345" name="hyptosis_til-art-batch-2" tilewidth="32" tileheight="32">
+  <image source="hyptosis_til-art-batch-2.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="2245" name="hyptosis_tile-art-batch-1" tilewidth="32" tileheight="32">
+  <image source="hyptosis_tile-art-batch-1.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="3145" name="hyptosis_tile-art-batch-3" tilewidth="32" tileheight="32">
+  <image source="hyptosis_tile-art-batch-3.png" width="960" height="960"/>
+ </tileset>
+ <tileset firstgid="4045" name="Tilesheet-water" tilewidth="32" tileheight="32">
+  <image source="Tilesheet-water.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="4109" name="meta_tiles" tilewidth="32" tileheight="32">
+  <image source="meta_tiles.png" width="67" height="34"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="grassDirt" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA9vIxsCwCYg3Q/FGKN6ExO7iIB6fB6q/gKQXHZNiFghvxOImUs1Adx+5bsEGyHEDPkCJ3qFkHjXCilSziDGPmnFJD/MI2UGOebjMJAbg00OMWfRKD6QAeqT5oQoAyLK0YEAGAAA=
+  </data>
+ </layer>
+ <layer name="path" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAXEAjNOTEwtc4g1D5/eoWQesYCaZhFjHqlgJJlHj3ilhnvIBbQ2bzgCADcbraJABgAA
+  </data>
+ </layer>
+ <layer name="trashTreelining" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYPCD1RwMDMYcDAtAGMheQKl5QHOQ2QcGm3lAPyYYQ/FqKpg3CkYBLQAA8om8dEAGAAA=
+  </data>
+ </layer>
+ <layer name="bushes" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGNpgBSfDgoF2w0gEjzkZGJ4A8VMgfsZJuXmMXAwMTEDMDMQsXJSbJw80QwGIFYFYCYt5yrykmWcLNMMOiO2B2AGLeY5I5rmQaDapYDTNDxwYDXtUAACTeyY5QAYAAA==
+  </data>
+ </layer>
+ <layer name="tree" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAW0BCt4qGveMSqbBwMngeaeAuLTQHyGCnY8B5rxAohfAvErKpjHysvAwAbE7EDMwUu5ecpAM1SAWBWI1ahgniPQDCcgdgZiFyqYNwpGwVAAAIMLeUpABgAA
+  </data>
+ </layer>
+ <layer name="water" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3NywqAIBCF4ekJ7P1XPlvuCrpsygisI82ADG5CN4ED/yLhfBG1a9furxcM2dreXtEUb65k3nAOtBR6k3mjnqyHtRZ4YsU6eCes7aPnsB04x0XvghNL/+FU8i57+R65dBvY02au3F73AIwZCGlABgAA
+  </data>
+ </layer>
+ <layer name="bridge" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMgqEBPvMyJICwIB9DAjXM+wQ0C4QFqGTeR6BZIMxPJfMGOwAA3d/DikAGAAA=
+  </data>
+ </layer>
+ <layer name="rocks" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgQAXFbAw0AaE0MpccAPJjySByzygYBaNgFAxFAABGhTWKQAYAAA==
+  </data>
+ </layer>
+ <layer name="log" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgoD7Yz83AcACID3LTwPBRMApGwSgYBYMCAADsg1kdQAYAAA==
+  </data>
+ </layer>
+ <layer name="backgroundTrees" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA1YWRkY2ICYHYg5gPgoCwPDMSA+DsQnWBDqngLZz4D4OQtus0BAFWiGGhCrA7EGK6q+F0h6ke0lBaC7F5u9pAB0946CUTAKRsEoQAAA+uQcSkAGAAA=
+  </data>
+ </layer>
+ <layer name="backgroundTrees2" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3KuQ0AIBADQQcc0AhP/z3xlIEbOEFA6JE2sQzcjQBMttgO/vbKDIgssWz+9qrwX1lj3fxNRET+Oba5joFABgAA
+  </data>
+ </layer>
+ <layer name="backgroundTrees3" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3LuQ0AIAxDURcEWIRj/504xsB9qkiUftIvXBiIWQnY7LCb/I4yAzIrrJrfUY2fzgab5reIiPzxABKjl05ABgAA
+  </data>
+ </layer>
+ <layer name="bench" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGL7gMQ8DwxMe6pnHyMvAwMRLPfNGwSgYBaNgKAMAbaFMykAGAAA=
+  </data>
+ </layer>
+ <layer name="rails" width="20" height="20">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWjYBSMgqEH6tgYFAbaDfgA0H0JA+0GWgMAvbIPPEAGAAA=
+  </data>
+ </layer>
+ <layer name="Meta" width="20" height="20" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgwA94BUjD6HqQzSHHTFIAufpINX8gwUDbDwPUDuuBMI8U+4hROxDpg9r2UeIHbPpoGa+UmEkLN1HiPlz6SC1/CdlN7TQKAEhqRgBABgAA
+  </data>
+ </layer>
+</map>
