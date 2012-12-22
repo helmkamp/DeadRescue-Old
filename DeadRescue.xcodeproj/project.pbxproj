@@ -147,6 +147,7 @@
 		2C7730A61684ED960078C0F1 /* level3Sprites_objects.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C7730A31684ED960078C0F1 /* level3Sprites_objects.png */; };
 		2C7730A71684ED960078C0F1 /* level3Sprites.pshs in Resources */ = {isa = PBXBuildFile; fileRef = 2C7730A41684ED960078C0F1 /* level3Sprites.pshs */; };
 		2a960ffc212bab018971c5ff /* LHSettings.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9a81c1fbee6e13013cc27d9b /* LHSettings.mm */; };
+		30DB1D761685661900759A4E /* Player-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 30DB1D751685661900759A4E /* Player-hd.png */; };
 		3d7b21f8d5b5d3942c7101ad /* LHPathNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 82c7663fe65c8cfc7d3b777c /* LHPathNode.mm */; };
 		40259fdc6a2548876394c2db /* LHLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = ec678778e6bff41dc50258a1 /* LHLayer.mm */; };
 		609c9f9e0186b39203972849 /* LHAnimationNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = 810d1556316d6f47ad3d3984 /* LHAnimationNode.mm */; };
@@ -444,6 +445,7 @@
 		2C7730A41684ED960078C0F1 /* level3Sprites.pshs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = level3Sprites.pshs; path = Resources/levelHelper/level3/level3Sprites.pshs; sourceTree = "<group>"; };
 		2b49de33256bd88d829e24fc /* LHPathNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHPathNode.h; sourceTree = "<group>"; };
 		2e88ce82f9ba44601b674f2b /* LHParallaxNode.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LHParallaxNode.mm; sourceTree = "<group>"; };
+		30DB1D751685661900759A4E /* Player-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Player-hd.png"; path = "Resources/levelHelper/level3/Player-hd.png"; sourceTree = "<group>"; };
 		32b7e4848068315af0b7c9ef /* LHCustomSpriteMgr.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = LHCustomSpriteMgr.mm; sourceTree = "<group>"; };
 		4250cabe8a21a7af258f351e /* LHSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHSettings.h; sourceTree = "<group>"; };
 		4925c798f1e9441306e93597 /* LHContactNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LHContactNode.h; sourceTree = "<group>"; };
@@ -597,6 +599,7 @@
 		2C3A4BA2167FB67D004675DF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				30DB1D751685661900759A4E /* Player-hd.png */,
 				2C7730A21684ED960078C0F1 /* level3Sprites_objects-hd.png */,
 				2C7730A31684ED960078C0F1 /* level3Sprites_objects.png */,
 				2C7730A41684ED960078C0F1 /* level3Sprites.pshs */,
@@ -1077,6 +1080,7 @@
 				2C7730A51684ED960078C0F1 /* level3Sprites_objects-hd.png in Resources */,
 				2C7730A61684ED960078C0F1 /* level3Sprites_objects.png in Resources */,
 				2C7730A71684ED960078C0F1 /* level3Sprites.pshs in Resources */,
+				30DB1D761685661900759A4E /* Player-hd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1262,6 +1266,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -1273,6 +1278,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1281,6 +1287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DeadRescue/Prefix.pch;
@@ -1291,6 +1298,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};

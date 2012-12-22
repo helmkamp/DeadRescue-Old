@@ -168,7 +168,7 @@
     touchLocation = [[CCDirector sharedDirector] convertToGL: touchLocation];
     touchLocation = [self convertToNodeSpace:touchLocation];
     
-    _player.position = touchLocation;
+   // _player.position = touchLocation;
     
     CGPoint playerPos = _player.position;
     CGPoint diff = ccpSub(touchLocation, playerPos);
