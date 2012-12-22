@@ -76,7 +76,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{320, 511}</string>
+								<string>{320, 192}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -151,7 +151,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{320, 319}</string>
+								<string>{320, 8}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -277,7 +277,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{253.5, 123.25}</string>
+								<string>{254.5, -185.75}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -352,7 +352,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{140, 281}</string>
+								<string>{141, -26}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -478,7 +478,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{110, 62.5}</string>
+								<string>{109, -245.5}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -604,7 +604,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{87.037246704101562, 64.457473754882812}</string>
+								<string>{87, -248.25}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -730,7 +730,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{112, 501}</string>
+								<string>{112, 183}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -856,7 +856,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{112.03724670410156, 551.45747375488281}</string>
+								<string>{112, 231}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -931,7 +931,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{436, 61}</string>
+								<string>{437, -251}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -1057,7 +1057,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{383.75, 266.75}</string>
+								<string>{383.75, -43.25}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -1183,7 +1183,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{566.03724670410156, 435.45747375488281}</string>
+								<string>{566.5, 118.25}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -1309,7 +1309,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{360.03724670410156, 522.45747375488281}</string>
+								<string>{358.5, 198.25}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -1435,7 +1435,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{284.75, 175.5}</string>
+								<string>{286.75, -134.5}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -1528,7 +1528,7 @@
 		<key>ProjectName</key>
 		<string>DeadRescue</string>
 		<key>ProjectPath</key>
-		<string>/Users/helmy/Documents/XCode Projects/Cocos2d Projects/DeadRescue/DeadRescue/DeadRescue/Resources/levelHelper</string>
+		<string>/Users/helmy_iMac/Documents/XCode Projects/Cocos2d Projects/DeadRescue.git/DeadRescue/Resources/levelHelper</string>
 		<key>SafeFrame</key>
 		<string>{480, 320}</string>
 		<key>Tags</key>

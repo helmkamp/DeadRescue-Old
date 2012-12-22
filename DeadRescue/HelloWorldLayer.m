@@ -74,6 +74,8 @@
         [loader addSpritesToLayer:self];
         
         levelSize = [loader gameWorldSize];
+        CCLOG(@"%f", levelSize.size.height);
+        CCLOG(@"%f", levelSize.size.width);
 		
 		//Add the player
         self.player = [CCSprite spriteWithFile:@"Player.png"];
@@ -102,6 +104,7 @@
         
         
         [self addChild:_player];
+        
         
 //        [self setViewpointCenter:_player.position];
 		
@@ -136,8 +139,8 @@
     int x = MAX(position.x, size.width/2);
     int y = MAX(position.y, size.height/2);
     
-    x = MIN(x, (levelSize.size.width * levelSize.size.width) - size.width/2);
-    y = MIN(y, (levelSize.size.height * levelSize.size.height) - size.height/2);
+    x = MIN(x, (levelSize.size.width) - size.width/2);
+    y = MIN(y, (levelSize.size.height) - size.height/2);
     
     CGPoint actualPosition = ccp(x, y);
     
@@ -155,7 +158,7 @@
 }
 
 -(void)setPlayerPosition:(CGPoint)position {
-    CGPoint tileCoord = [self tileCoordForPosition:position];
+    //CGPoint tileCoord = [self tileCoordForPosition:position];
     
     _player.position = position;
 }
